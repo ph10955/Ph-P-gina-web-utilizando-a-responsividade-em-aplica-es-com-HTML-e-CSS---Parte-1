@@ -1,0 +1,30 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #1f2778;
+    --branco: #5d7abd;
+    --laranja: #4442d3;
+    --azul-degrade: linear-gradient(97.54deg, #094340 35.49%, #0ab666 165.37%);
+    --fonte-principal: "Source Code Pro";
+    --azul: #378812;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+h1 {
+    color: var(--laranja);
+}
+
+
+  
